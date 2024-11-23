@@ -107,7 +107,7 @@
             layers = <0>;
         };
 
-        f11 {
+        f12 {
             bindings = <&kp F12>;
             key-positions = <53 12>;
             layers = <0>;
