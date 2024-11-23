@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
   - A
   - S
   - D
@@ -40,7 +40,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - .
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - Z
   - X
   - C
@@ -195,3 +195,40 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [53, 0]
+  k: F1
+  l: [LAYER0]
+- p: [53, 1]
+  k: F2
+  l: [LAYER0]
+- p: [53, 2]
+  k: F3
+  l: [LAYER0]
+- p: [53, 3]
+  k: F4
+  l: [LAYER0]
+- p: [53, 4]
+  k: F5
+  l: [LAYER0]
+- p: [53, 5]
+  k: F6
+  l: [LAYER0]
+- p: [53, 7]
+  k: F7
+  l: [LAYER0]
+- p: [53, 8]
+  k: F8
+  l: [LAYER0]
+- p: [53, 9]
+  k: F9
+  l: [LAYER0]
+- p: [53, 10]
+  k: F10
+  l: [LAYER0]
+- p: [53, 11]
+  k: F11
+  l: [LAYER0]
+- p: [53, 12]
+  k: F12
+  l: [LAYER0]
