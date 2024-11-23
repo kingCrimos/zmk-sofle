@@ -38,6 +38,82 @@
         tap-ms = <30>;
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        f1 {
+            bindings = <&kp F1>;
+            key-positions = <53 0>;
+            layers = <0>;
+        };
+
+        f2 {
+            bindings = <&kp F2>;
+            key-positions = <53 1>;
+            layers = <0>;
+        };
+
+        f3 {
+            bindings = <&kp F3>;
+            key-positions = <53 2>;
+            layers = <0>;
+        };
+
+        f4 {
+            bindings = <&kp F4>;
+            key-positions = <53 3>;
+            layers = <0>;
+        };
+
+        f5 {
+            bindings = <&kp F5>;
+            key-positions = <53 4>;
+            layers = <0>;
+        };
+
+        f6 {
+            bindings = <&kp F6>;
+            key-positions = <53 5>;
+            layers = <0>;
+        };
+
+        f7 {
+            bindings = <&kp F7>;
+            key-positions = <53 7>;
+            layers = <0>;
+        };
+
+        f8 {
+            bindings = <&kp F8>;
+            key-positions = <53 8>;
+            layers = <0>;
+        };
+
+        f9 {
+            bindings = <&kp F9>;
+            key-positions = <53 9>;
+            layers = <0>;
+        };
+
+        f10 {
+            bindings = <&kp F10>;
+            key-positions = <53 10>;
+            layers = <0>;
+        };
+
+        f11 {
+            bindings = <&kp F11>;
+            key-positions = <53 11>;
+            layers = <0>;
+        };
+
+        f11 {
+            bindings = <&kp F12>;
+            key-positions = <53 12>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -45,8 +121,8 @@
             bindings = <
 &kp ESC           &kp N1      &kp N2        &kp N3        &kp N4     &kp N5       &kp UP_ARROW     &kp N6   &kp N7            &kp N8             &kp N9     &kp N0     &kp BACKSPACE
 &kp TAB           &kp Q       &kp W         &kp E         &kp R      &kp T        &kp DOWN_ARROW   &kp Y    &kp U             &kp I              &kp O      &kp P      &kp ENTER
-&kp LEFT_CONTROL  &kp A       &kp S         &kp D         &kp F      &kp G        &kp LEFT_ARROW   &kp H    &kp J             &kp K              &kp L      &kp SEMI   &kp APOS
-&kp LEFT_SHIFT    &kp Z       &kp X         &kp C         &kp V      &kp B        &kp RIGHT_ARROW  &kp N    &kp M             &kp COMMA          &kp DOT    &kp FSLH   &kp NON_US_BACKSLASH
+&kp LEFT_SHIFT    &kp A       &kp S         &kp D         &kp F      &kp G        &kp LEFT_ARROW   &kp H    &kp J             &kp K              &kp L      &kp SEMI   &kp APOS
+&kp LEFT_CONTROL  &kp Z       &kp X         &kp C         &kp V      &kp B        &kp RIGHT_ARROW  &kp N    &kp M             &kp COMMA          &kp DOT    &kp FSLH   &kp NON_US_BACKSLASH
 &kp C_MUTE        &kp K_FIND  &kp LEFT_GUI  &kp LEFT_ALT  &kp SPACE  &kp GRAVE    &to 1            &kp DEL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS  &kp EQUAL
             >;
 
